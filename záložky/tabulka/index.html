@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galerie</title>
+    <link rel="stylesheet" href="../../css/style-tabulka.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+    <nav>
+        <label class="logo">Tabulka</label>
+        <ul>
+            <li><a href="../../hl.strana/index.html">Menu</a></li>
+            <li><a href="../multimédia/index.html">Multimédia</a></li>
+            <li><a href="../fotogalerie/index.html">Fotogalerie</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label>
+    </nav>
+    <main>
+        <h1>Tabulky v HTML</h1>
+        <h2>Slavná osobnost: Tomáš Garrigue Masaryk</h2>
+        <table>
+            <caption>Vizitka slavné osobnosti</caption>
+            <thead>
+                <tr>
+                    <th class="top">Portrét</th>
+                    <th class="top" colspan="2">Základní údaje</th>
+                    <th class="top">Významné činy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="mid" rowspan="3"><img class="masaryk" src="../../fotky/tgm.png"
+                            alt="Tomáš Garrigue Masaryk"></td>
+                    <td class="mid" colspan="2">Tomáš Garrigue Masaryk</td>
+                    <td class="mid" rowspan="4"> Masaryk byl celkem sedmnáctkrát <br> navržen na Nobelovu cenu míru. <br><br> 
+                        <br> Jméno Tomáše Garrigua Masaryka <br> nese celá řada ulic a náměstí <br> v České republice i v zahraničí.
+
+                        <br><br>Jeho díla:
+                        <br>Jak pracovat? <br>Theorie dějin podle zásad T. H. Bucklea <br>Hus českému studentstvu <br>Naše politická situace <br>Žena u Ježíše a Pavla <br> a mnoho dalších.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="mid"> 1850 Hodonín</td>
+                    <td class="mid"> 1937 Lány</td>
+                </tr>
+                <tr>
+                    <td class="mid" rowspan="2" colspan="2"> <br>Československý státník, filozof, sociolog a pedagog, <br> první
+                        prezident Československé republiky.  K jeho osmdesátým <br> narozeninám byl roku 1930 přijat zákon  o
+                        zásluhách T. G. Masaryka,<br> obsahující větu  „Tomáš Garrigue Masaryk zasloužil se o stát“, <br> a po
+                        odchodu z funkce roku 1935  ho parlament  znovu ocenil<br> a odměnil za jeho osvoboditelské a
+                        budovatelské dílo.</td>
+                </tr>
+                <tr>
+                    <td class="mid">Tomáš Garrigue Masaryk</td>
+                </tr>
+                <tr>
+                    <td class="odkaz" colspan="4"><a href="https://cs.wikipedia.org/wiki/Tomáš_Garrigue_Masaryk"
+                            target="_blank">Wikipedie</a></td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </main>
+    <footer>
+        &copy; Šimon Ludvíček 2021
+    </footer>
+</body>
+
+</html>

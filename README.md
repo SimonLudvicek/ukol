@@ -1,0 +1,1 @@
+projek ve kterém je fotogalerie a tabulka
