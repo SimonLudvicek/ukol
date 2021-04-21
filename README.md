@@ -1,1 +1,1 @@
-projek ve kterém je fotogalerie a tabulka
+projek s tabulkou fotogalerií a multimédii
