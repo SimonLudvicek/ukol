@@ -151,6 +151,7 @@
         border: black;
     }
     h1 {
+        background-image: linear-gradient(140deg, #68578f, #68578f);
         font-size: 50px;
         color:black;
         text-align: center;
@@ -162,4 +163,14 @@
         background-color:white;
         border: black;
     }
-    
+   dt{
+    margin-left: 100px;
+   }
+   dl{
+       margin-left: 300px;
+       font-size: 20px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   main {
+    background-image: linear-gradient(140deg, #68578f, #a32a7f);
+   }
